@@ -29,4 +29,4 @@ checkresults.py: to calculate the false negative, false positive of the classifi
 	argv[1]: the prediction result (predictions)
 	argv[2]: the true label file (which is extracted from the test set by the runsvm.py program)
 
-Remember to create the folder named “temp” before run the program. If you have any question, feel free to send an email to: nhan.q.nguyen@uconn.edu.
+Remember to create the folder named “temp” before run the program. If you have any question, feel free to send an email to: nhan.q.nguyen@engr.uconn.edu.
