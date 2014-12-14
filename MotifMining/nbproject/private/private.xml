@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <data xmlns="http://www.netbeans.org/ns/make-project-private/1">
+        <activeConfTypeElem>1</activeConfTypeElem>
+        <activeConfIndexElem>0</activeConfIndexElem>
+    </data>
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/home/nhannguyen/NetBeansProjects/MotifMining/libdb.h</file>
+            <file>file:/home/nhannguyen/NetBeansProjects/MotifMining/DataPartitionClient2.cpp</file>
+            <file>file:/home/nhannguyen/NetBeansProjects/MotifMining/pdm_types.cpp</file>
+            <file>file:/home/nhannguyen/NetBeansProjects/MotifMining/MotifSearch.h</file>
+            <file>file:/home/nhannguyen/NetBeansProjects/MotifMining/pdm_constants.cpp</file>
+            <file>file:/home/nhannguyen/NetBeansProjects/MotifMining/damedb.cpp</file>
+            <file>file:/home/nhannguyen/NetBeansProjects/MotifMining/DataPartition.h</file>
+            <file>file:/home/nhannguyen/NetBeansProjects/MotifMining/MotifSearch.cpp</file>
+            <file>file:/home/nhannguyen/NetBeansProjects/MotifMining/DataPartitionHandler.cpp</file>
+            <file>file:/home/nhannguyen/NetBeansProjects/MotifMining/DataPartitionHandler.h</file>
+        </group>
+    </open-files>
+</project-private>
