@@ -17,19 +17,16 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
-        var alert = UIAlertView()
         var myapp = UIApplication.sharedApplication()
         if (myapp.backgroundRefreshStatus == UIBackgroundRefreshStatus.Denied) {
-            alert.title = "Alert"
-            alert.message = "You need to turn Background App Refresh on. To do it, go to Settings > General > Background App Refresh"
-            alert.addButtonWithTitle("Gotcha")
+            var alert : UIAlertView = UIAlertView(title: "Alert", message: "You need to turn Background App Refresh on. To do it, go to Settings > General > Background App Refres", delegate: self, cancelButtonTitle: "OK")
             alert.show()
         } else if (myapp.backgroundRefreshStatus == UIBackgroundRefreshStatus.Restricted) {
             
         } else {
             
             locationCollector.startLocationCollecting()
-            let time : NSTimeInterval = 600.0
+            let time : NSTimeInterval = 90.0
             var locationUpdateTimer = NSTimer.scheduledTimerWithTimeInterval(time, target: self,
                 selector: Selector("updateLocation"), userInfo: nil, repeats: true)
             
